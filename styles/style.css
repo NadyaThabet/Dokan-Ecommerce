@@ -49,19 +49,19 @@
 }
 
 .img1 {
-  background-image: url(/images/men-001.jpg);
+  background-image: url("/images/men-001.jpg");
 }
 
 .img2 {
-  background-image: url(/images/women-001.jpg);
+  background-image: url("/images/women-001.jpg");
 }
 
 .img3 {
-  background-image: url(/images/kid-001.jpg);
+  background-image: url("/images/kid-001.jpg");
 }
 
 .img4 {
-  background-image: url(/images/accessories-001.jpg);
+  background-image: url("/images/accessories-001.jpg");
 }
 
 .carousel-indicators .active {
@@ -240,7 +240,7 @@
 .first-sec {
   width: 100%;
   height: 40vh;
-  background-image: url(/images/about-us-page-heading.jpg);
+  background-image: url("/images/about-us-page-heading.jpg");
   background-size: cover;
 }
 
@@ -259,7 +259,7 @@
 
 .first-sec01 {
   height: 45vh;
-  background-image: url(/images/products-background.jpg);
+  background-image: url("/images/products-background.jpg");
   background-size: cover;
 }
 
