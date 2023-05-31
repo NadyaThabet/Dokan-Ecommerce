@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-item a:hover {
+  background-color: rgb(139, 33, 33);
+  transform: scale(0.7);
+  transition: 0.8s ease;
+  text-transform: uppercase;
+  border-radius: 0.5em;
+}
+
+.home-btn:hover {
+  color: white !important;
+}
+
+.pages-btn:focus {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 0.5em;
+  background-color: rgb(139, 33, 33);
+}
+
+.dropdown-menu a:hover {
+  color: white;
+  background-color: rgb(139, 33, 33);
+  transition: 0.8s ease;
+  text-transform: uppercase;
+  padding-left: 1em;
+}
+
+.carousel-inner::after {
+  position: absolute;
+  content: "";
+  min-width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 50%);
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+  min-width: 100%;
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+.img1 {
+  background-image: url(/images/men-001.jpg);
+}
+
+.img2 {
+  background-image: url(/images/women-001.jpg);
+}
+
+.img3 {
+  background-image: url(/images/kid-001.jpg);
+}
+
+.img4 {
+  background-image: url(/images/accessories-001.jpg);
+}
+
+.carousel-indicators .active {
+  background-color: red;
+}
+
+.btn-1:hover {
+  cursor: pointer;
+}
+
+.btn-001:hover {
+  transition: 0.8s ease;
+  transform: scale(1.2);
+}
+
+.hrt-btn:hover {
+  cursor: pointer;
+  color: rgb(139, 33, 33) !important;
+}
+
+.cart-btn:hover {
+  cursor: pointer;
+  color: rgb(139, 33, 33) !important;
+}
+
+.content01 {
+  width: 18%;
+  height: 25vh;
+  right: 57%;
+  margin-top: 1.5em;
+  padding: 2.5%;
+}
+
+.content01:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity: 1 !important;
+}
+
+.content02 {
+  width: 18%;
+  height: 25vh;
+  right: 26%;
+  margin-top: 1.5em;
+  padding: 2.5%;
+}
+
+.content02:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity: 1 !important;
+}
+
+.content03 {
+  width: 22%;
+  height: 25vh;
+  margin-top: 1.5em;
+  padding: 3.5%;
+}
+
+.content03:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity: 1 !important;
+}
+
+.footer-div {
+  height: 50vh;
+}
+
+@media screen and (max-width: 991px) {
+  .footer-div {
+    height: 125vh;
+  }
+}
+
+.left-logo {
+  height: 10vh;
+}
+
+.min-logo-2 {
+  font-size: 90px;
+}
+
+.shopping-div {
+  height: 30vh;
+}
+
+.links-div {
+  height: 30vh;
+}
+
+.help-div {
+  height: 30vh;
+}
+
+.footer-img {
+  font-size: 30px;
+}
+
+.footer-img:hover {
+  color: rgb(139, 33, 33);
+  cursor: pointer;
+}
+
+.footer-a:hover {
+  color: rgb(139, 33, 33) !important;
+}
+
+.icons-div:hover {
+  cursor: pointer;
+}
+
+.icon01:hover {
+  color: blue !important;
+}
+
+.icon02:hover {
+  color: lightskyblue !important;
+}
+
+.icon03:hover {
+  color: green !important;
+}
+
+.icon04:hover {
+  color: red !important;
+}
+
+.sign01 {
+  height: 65vh;
+  width: 40%;
+  box-shadow: 3px 3px gray;
+}
+
+.sign-btn01 {
+  box-shadow: 3px 3px gray;
+}
+
+@media screen and (max-width: 992px) {
+  .sign01 {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sign01 {
+    width: 75%;
+  }
+}
+
+.sign02 {
+  height: 65vh;
+  width: 40%;
+  box-shadow: 3px 3px gray;
+}
+
+@media screen and (max-width: 480px) {
+  .sign02 {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sign02 {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .sign02 {
+    width: 55%;
+  }
+}
+
+.first-sec {
+  width: 100%;
+  height: 40vh;
+  background-image: url(/images/about-us-page-heading.jpg);
+  background-size: cover;
+}
+
+.terms-a:hover {
+  color: darkblue;
+  text-decoration: underline !important;
+}
+
+.team-div {
+  margin-top: 10em;
+}
+
+.card-1 {
+  box-shadow: 3px 3px gray;
+}
+
+.first-sec01 {
+  height: 45vh;
+  background-image: url(/images/products-background.jpg);
+  background-size: cover;
+}
+
+.first-sec01::after {
+  width: 100%;
+  height: 45vh;
+  position: absolute;
+  content: "";
+  background-color: rgba(0, 0, 0, 50%);
+}
+
+.card-01:hover {
+  background-color: #343a40;
+  transform: scale(1.05);
+  transition: all 0.4s linear;
+  cursor: pointer;
+  color: white;
+}
+
+.load01:focus {
+  height: 100vh;
+  width: 100%;
+  overflow: scroll;
+}
